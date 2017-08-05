@@ -1,4 +1,4 @@
-QWinFF, FFmpeg GUI front-end based on Qt4
+QWinFF, FFmpeg GUI front-end based on Qt4/Qt5
 =========================================
 
 Introduction
