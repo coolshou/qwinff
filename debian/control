@@ -1,0 +1,25 @@
+Source: qwinff
+Maintainer: Timothy Lin <lzh9102@gmail.com>
+Section: video
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7),
+               libqt4-dev (>= 4.3)| qtbase5-dev,
+					libqt4-opengl-dev | libqt5opengl5-dev,
+               libnotify-dev
+
+Package: qwinff
+Architecture: any
+Depends: ${shlibs:Depends} ${misc:Depends},
+         ffmpeg, libavcodec-extra-54 | libavcodec-extra | libavcodec-extra57,
+         sox, mplayer
+Provides: qwinff
+Description: cross-platform, easy-to-use media converter frontend to FFmpeg.
+ FFmpeg is a powerful command-line utility to convert audio and video file
+ into numerous formats. QWinFF features a rich set of presets to help users
+ use FFmpeg easily without having to manually input command-line flags.
+ Average users can convert multiple media files in just a few clicks,
+ while advanced users can still adjust conversion parameters in detail. 
+ .
+ If you find problems with the program or you have any suggestions,
+ please report them in the Issues tab or e-mail to lzh9102@gmail.com. 
